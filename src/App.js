@@ -5,6 +5,7 @@ import "./SearchCity";
 import "./Location.js";
 import "./Forecast";
 import "./DisplayCity";
+import "./Weather";
 
 function App() {
   return (
