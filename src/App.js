@@ -4,6 +4,7 @@ import WeatherDisplay from "./WeatherDisplay";
 import "./SearchCity";
 import "./Location.js";
 import "./Forecast";
+import "./DisplayCity";
 
 function App() {
   return (
