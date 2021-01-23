@@ -1,0 +1,11 @@
+.weather-country {
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 0;
+    color: purple;
+}
+
+.weather-city {
+    margin-left: 40px;
+    color: lightsteelblue;
+}

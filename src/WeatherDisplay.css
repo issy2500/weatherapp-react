@@ -1,0 +1,88 @@
+.WeatherDisplay {
+    display: block #6918b4;
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+    border: solid;
+    border-color: #017ddf;
+    max-width: 800px;
+    margin-top: 145px;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.WeatherDisplay .row {
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.WeatherDisplay .row-temp {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.WeatherDisplay .city {
+    display: block;
+    margin: 70px auto 30px;
+}
+
+.WeatherDisplay .btn btn-info {
+    display: block;
+    margin: 0 auto 0 665px;
+}
+
+.WeatherDisplay .btn btn-sucess {
+    display: block;
+    margin: 0 auto 0 665px;
+}
+
+.WeatherDisplay .weather-country {
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-right: 0;
+    color: purple;
+}
+
+.WeatherDisplay .weather-city {
+    margin-left: 40px;
+    color: lightsteelblue;
+}
+#day-time {
+    margin-left: 50px;
+}
+.WeatherDisplay .row-sat {
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+    padding-bottom: 20px;
+}
+
+.WeatherDisplay .row-sun {
+    font-style: italic;
+    font-size: 20px;
+    color: blue;
+    padding-bottom: 20px;
+}
+
+.WeatherDisplay .surfing {
+    width: 25%;
+    opacity: 0.7;
+}
+
+.WeatherDisplay #day-description {
+    color: rgb(76, 122, 6);
+    font-style: cursive;
+    font-size: 20px;
+}
+
+.WeatherDisplay #parameters {
+    color: purple;
+}
+
+.WeatherDisplay .h4 {
+    text-align: center;
+    text-decoration-color: goldenrod;
+}
+
