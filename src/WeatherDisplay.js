@@ -1,20 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "./WeatherDisplay.css";
 
 export default function WeatherDisplay(prop) {
- let [temperature, setTemperature] = useState(prop.temperature);
-  let [unit, setUnit] = useState("Metric");
 
   function displayCelsius(event) {
     event.preventDefault();
-    setTemperature(prop.temperature);
-    setUnit("Metric");
   }
 
   function displayFahrenheit(event) {
     event.preventDefault();
-    setTemperature(Math.round((0 * 9) / 5 + 32));
-    setUnit("Celsius");
   }
 
   let weatherData = {
