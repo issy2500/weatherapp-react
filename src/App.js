@@ -10,7 +10,9 @@ import "./Weather";
 function App() {
   return (
     <div className="App">
+      <div className ="Container">
       <WeatherDisplay/>
+    </div>
     </div>
   );
 }
